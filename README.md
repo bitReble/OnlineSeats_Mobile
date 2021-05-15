@@ -1,16 +1,20 @@
-# firebase_authentication
+# OnlineSeats mobile applications
 
-A new Flutter project.
+This is OnlineSeats.lk mobile app for passenger.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+If you want to setup this project locally, just follow bellow steps
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- clone the Github repository 
+# git clone https://github.com/bitReble/OnlineSeats_Mobile.git
+on your command prompt(cmd) on windows or terminal on mac.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+After getting source code , you need to run 
+#  flutter pub get.
+This will install missing packages for you.🤗
+If you are using vscode just follow bellow article to get more info.
+[online documentation](https://medium.com/las-letras/clone-flutter-project-from-github-using-vscode-7701073cf061), which offers tutorials,
+Now you are all set to run it using emulator or physical device.😋
