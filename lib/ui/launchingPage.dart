@@ -1,5 +1,6 @@
-import 'package:firebase_authentication/ui/findBuses.dart';
 import 'package:flutter/material.dart';
+import './login.dart';
+import './signup.dart';
 
 class LaunchingPage extends StatelessWidget {
   @override
@@ -36,33 +37,52 @@ class LaunchingPage extends StatelessWidget {
           Padding(
             padding: EdgeInsets.all(20.0),
           ),
-          Container(
-            margin: EdgeInsets.all(20.0),
-            width: 55,
-            height: 50,
-            child: RaisedButton(
-              onPressed: (){
-                 Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => FindBuses()),
-                  );
-              },
-              //make rounded button
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.only(
-                topRight: Radius.circular(25.0),
-                topLeft: Radius.circular(25.0),
-                bottomLeft: Radius.circular(25.0),
-                bottomRight: Radius.circular(25.0),
-              )),
-              child: Text('Continue',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 20.0,
-                  )),
-              color: Colors.red,
-            ),
-          )
+          RaisedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => Login()),
+              );
+            },
+            //make rounded button
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.only(
+              topRight: Radius.circular(25.0),
+              topLeft: Radius.circular(25.0),
+              bottomLeft: Radius.circular(25.0),
+              bottomRight: Radius.circular(25.0),
+            )),
+
+            child: Text('login',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20.0,
+                )),
+            color: Colors.red,
+          ),
+          RaisedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => SignUp()),
+              );
+            },
+            //make rounded button
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.only(
+              topRight: Radius.circular(25.0),
+              topLeft: Radius.circular(25.0),
+              bottomLeft: Radius.circular(25.0),
+              bottomRight: Radius.circular(25.0),
+            )),
+
+            child: Text('Sign up',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20.0,
+                )),
+            color: Colors.red,
+          ),
         ],
       ),
     );

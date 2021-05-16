@@ -84,7 +84,7 @@ class Login extends StatelessWidget {
                   );
                 },
                 child: Text(
-                  'Register',
+                  'Sign up',
                   style: TextStyle(
                     color: Colors.red,
                     fontSize: 16.9,

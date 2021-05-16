@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import './ui/login.dart';
+import './ui/launchingPage.dart';
 
 void main() {
   runApp(MaterialApp(
-    title: "firebase authentication",
+    title: "onlineSeats.lk",
     debugShowCheckedModeBanner: false,
-    home: new Login(),
+    home: new LaunchingPage(),
   ));
 }
