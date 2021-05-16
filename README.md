@@ -15,10 +15,13 @@ on your command prompt(cmd) on windows or terminal on mac.
 
 After getting source code , you need to run <br>
     `flutter pub get`
+    <br>
 This will install missing packages for you.🤗
+<br>
 If you are using vscode just follow this article to get more info.
 [online documentation](https://medium.com/las-letras/clone-flutter-project-from-github-using-vscode-7701073cf061)
+<br>
 Now you are all set to run it using emulator or physical device.😋
-
+<br>
 To run this use<br>
-`flutter run'
+`flutter run`
