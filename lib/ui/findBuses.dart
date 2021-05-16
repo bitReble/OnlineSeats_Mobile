@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'availableBusList.dart';
 
 class FindBuses extends StatefulWidget {
   createState() {
@@ -154,8 +155,11 @@ class FindBusesState extends State<FindBuses> {
               ),
               RaisedButton(
                 onPressed: () => _selectDate(context),
-                child: Text('Select journey Date'),
-                color: Colors.red,
+                child: Text('Select journey Date',
+                    style: TextStyle(
+                      color: Colors.white,
+                    )),
+                color: Colors.blue,
               ),
               SizedBox(
                 height: 30.0,
@@ -164,7 +168,7 @@ class FindBusesState extends State<FindBuses> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => FindBuses()),
+                    MaterialPageRoute(builder: (context) => AvailableBusList()),
                   );
                 },
                 child: Text(
