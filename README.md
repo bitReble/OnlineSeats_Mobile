@@ -1,4 +1,4 @@
-# OnlineSeats mobile applications
+# OnlineSeats Mobile Application
 
 This is OnlineSeats.lk mobile app for passenger.
 
